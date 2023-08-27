@@ -82,3 +82,16 @@ label {
   font-weight: 600;
   margin-bottom: 0.45rem;
 }
+
+.table thead th {
+  background-color: #f3f6f9;
+  border-bottom: 1px solid #ddd!important;
+  border-top: 0;
+  font-weight: 700;
+}
+// .table-bordered td, .table-bordered th {
+//   border: 1px solid #d9dcdf !important;
+// }
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th {
+  border-top: 1px solid #d9dcdf !important;
+}

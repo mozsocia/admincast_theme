@@ -1,6 +1,6 @@
 .progress {
     box-shadow: none;
-    border-radius: 2px;
+    border-radius: $default-border-radius;
     height: auto;
     .progress-bar {
         height: 16px;

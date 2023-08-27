@@ -60,15 +60,16 @@
 		    display:block;
 		}
 		.arrow {
-			line-height: 18px;
+			font-size: 22px;
+			line-height: 20px;
 			position: absolute;
 			top: 50%;
-			right: 15px;
+			right: 25px;
 			margin-top: -9px;
 			opacity: 1;
 		}
 		&.active > a > .arrow {
-            transform: rotate(-90deg);
+            transform: rotate(90deg);
 		}
 	}
 	& > li {

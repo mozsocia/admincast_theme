@@ -144,3 +144,28 @@
 	.header .search-toggler span, .dropdown-user > a > span { display:none }
 	.dropdown-user > a > img { margin-left:0 !important }
 }
+
+
+
+.header {
+	background-color: $brand-primary; }
+	.header .page-brand {
+	  color: #fff;
+	  background-color: darken($brand-primary, 4%) !important; }
+	.header .navbar-toolbar > li > a, .header .navbar-toolbar > li > a:hover, .header .navbar-toolbar > li > a:focus {
+	  color: #fff; }
+	.header .navbar-toolbar .navbar-search .form-control {
+	  background-color: transparent; }
+	  .header .navbar-toolbar .navbar-search .form-control, .header .navbar-toolbar .navbar-search .form-control::-webkit-input-placeholder {
+		color: #fff; }
+	  .header .navbar-toolbar .navbar-search .form-control, .header .navbar-toolbar .navbar-search .form-control::-moz-placeholder {
+		color: #fff; }
+	  .header .navbar-toolbar .navbar-search .form-control, .header .navbar-toolbar .navbar-search .form-control:-ms-input-placeholder {
+		color: #fff; }
+	  .header .navbar-toolbar .navbar-search .form-control, .header .navbar-toolbar .navbar-search .form-control::-ms-input-placeholder {
+		color: #fff; }
+	  .header .navbar-toolbar .navbar-search .form-control, .header .navbar-toolbar .navbar-search .form-control::placeholder {
+		color: #fff; }
+	.header .navbar-toolbar .navbar-search .search-icon {
+	  color: #fff; }
+  

@@ -1,5 +1,5 @@
 .form-control {
-    border-radius: 2px;
+    border-radius: $default-border-radius - 2px;
     box-shadow: none !important;
     &:focus {
         border-color: $brand-info;

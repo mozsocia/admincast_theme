@@ -1,13 +1,16 @@
 
 .btn {
-    border-radius: 2px;
+    padding: 0.60rem 0.90rem;
+    font-size: 1.1rem;
+    border-radius: $button-border-radius;
     outline: 0 !important;
     transition: all ease-in-out .15s;
     position: relative;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(17,24,39,.075);
     &:active, &.active,
     .show > &.dropdown-toggle,
     .open > &.dropdown-toggle {
-        box-shadow: none;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(17,24,39,.075);
     }
 
     .active-visible {display: none}

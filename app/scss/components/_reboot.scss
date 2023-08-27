@@ -68,7 +68,7 @@ code {
 pre {
   position: relative;
   border: none;
-  border-radius: 2px;
+  border-radius: $default-border-radius;
   margin-top:10px;
   padding: 12px;
   background: #F0F0F0;
@@ -76,3 +76,9 @@ pre {
 }
 
 .collapse.in {display: block} // support bootstrap 3 for plugins
+
+label {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 0.45rem;
+}

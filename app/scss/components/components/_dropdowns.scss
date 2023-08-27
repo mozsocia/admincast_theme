@@ -1,6 +1,6 @@
 
 .dropdown-menu {
-    border-radius: 2px;
+    border-radius: $default-border-radius;
     padding: 0;
     color: inherit;    
     .dropdown-item, 

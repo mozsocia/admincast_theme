@@ -7,7 +7,7 @@
 .select2-container--default .select2-selection--single,
 .select2-container--default.select2-container--focus .select2-selection--multiple {
 	outline: 0!important;
-	border-radius: 2px;
+	border-radius: $default-border-radius;
 	border: 1px solid rgba(0,0,0,.15);
 	height: auto;
 }

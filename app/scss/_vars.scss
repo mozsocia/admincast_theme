@@ -21,8 +21,8 @@
   }
 
   
-$white:           #fff;
-$black:           #000;
+$white:           #fdfdfd;
+$black:           #0f0f0f;
 
 //$blue-dark:       #3498DB;
 $blue:            rgb(122, 61, 253);
@@ -46,6 +46,73 @@ $brand-info:                $blue-light;
 $brand-warning:             $orange;
 $brand-danger:              $red;
 $brand-default:             $silver;
+
+$primary01: rgba($brand-primary, 0.1);
+$primary02: rgba($brand-primary, 0.2);
+$primary03: rgba($brand-primary, 0.3);
+$primary04: rgba($brand-primary, 0.4);
+$primary05: rgba($brand-primary, 0.5);
+$primary06: rgba($brand-primary, 0.6);
+$primary07: rgba($brand-primary, 0.7);
+$primary08: rgba($brand-primary, 0.8);
+$primary09: rgba($brand-primary, 0.9);
+$primary005: rgba($brand-primary, 0.05);
+
+$success01: rgba($brand-success, 0.1);
+$success02: rgba($brand-success, 0.2);
+$success03: rgba($brand-success, 0.3);
+$success04: rgba($brand-success, 0.4);
+$success05: rgba($brand-success, 0.5);
+$success06: rgba($brand-success, 0.6);
+$success07: rgba($brand-success, 0.7);
+$success08: rgba($brand-success, 0.8);
+$success09: rgba($brand-success, 0.9);
+$success005: rgba($brand-success, 0.05);
+
+$info01: rgba($brand-info, 0.1);
+$info02: rgba($brand-info, 0.2);
+$info03: rgba($brand-info, 0.3);
+$info04: rgba($brand-info, 0.4);
+$info05: rgba($brand-info, 0.5);
+$info06: rgba($brand-info, 0.6);
+$info07: rgba($brand-info, 0.7);
+$info08: rgba($brand-info, 0.8);
+$info09: rgba($brand-info, 0.9);
+$info005: rgba($brand-info, 0.05);
+
+$warning01: rgba($brand-warning, 0.1);
+$warning02: rgba($brand-warning, 0.2);
+$warning03: rgba($brand-warning, 0.3);
+$warning04: rgba($brand-warning, 0.4);
+$warning05: rgba($brand-warning, 0.5);
+$warning06: rgba($brand-warning, 0.6);
+$warning07: rgba($brand-warning, 0.7);
+$warning08: rgba($brand-warning, 0.8);
+$warning09: rgba($brand-warning, 0.9);
+$warning005: rgba($brand-warning, 0.05);
+
+$danger01: rgba($brand-danger, 0.1);
+$danger02: rgba($brand-danger, 0.2);
+$danger03: rgba($brand-danger, 0.3);
+$danger04: rgba($brand-danger, 0.4);
+$danger05: rgba($brand-danger, 0.5);
+$danger06: rgba($brand-danger, 0.6);
+$danger07: rgba($brand-danger, 0.7);
+$danger08: rgba($brand-danger, 0.8);
+$danger09: rgba($brand-danger, 0.9);
+$danger005: rgba($brand-danger, 0.05);
+
+$default01: rgba($brand-default, 0.1);
+$default02: rgba($brand-default, 0.2);
+$default03: rgba($brand-default, 0.3);
+$default04: rgba($brand-default, 0.4);
+$default05: rgba($brand-default, 0.5);
+$default06: rgba($brand-default, 0.6);
+$default07: rgba($brand-default, 0.7);
+$default08: rgba($brand-default, 0.8);
+$default09: rgba($brand-default, 0.9);
+$default005: rgba($brand-default, 0.05);
+
 
 $default-border-radius: 6px;
 $button-border-radius: 0.4rem;

@@ -158,6 +158,134 @@ btn .caret {
 }
 
 
+/* Start:: Light Buttons */
+.btn {
+    &.btn-primary-light {
+      background-color: $primary01;
+      color: $brand-primary;
+      box-shadow: none;
+      
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $brand-primary;
+        color: white;
+        border-color: $brand-primary;
+      }
+    }
+    
+    &.btn-success-light {
+      background-color: $success01;
+      color: $brand-success;
+      box-shadow: none;
+      
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $brand-success;
+        color: white;
+        border-color: $brand-success;
+      }
+    }
+    
+    &.btn-info-light {
+      background-color: $info01;
+      color: $brand-info;
+      box-shadow: none;
+      
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $brand-info;
+        color: white;
+        border-color: $brand-info;
+      }
+    }
+    
+    &.btn-warning-light {
+      background-color: $warning01;
+      color: $brand-warning;
+      box-shadow: none;
+      
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $brand-warning;
+        color: white;
+        border-color: $brand-warning;
+      }
+    }
+    
+    &.btn-danger-light {
+      background-color: $danger01;
+      color: $brand-danger;
+      box-shadow: none;
+      
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $brand-danger;
+        color: white;
+        border-color: $brand-danger;
+      }
+    }
+  }
+  /* End:: Light Buttons */
+
+
+
+  .bg-primary-transparent {
+    background-color: $primary01 !important;
+    color: $brand-primary !important;
+    &:hover {
+        background-color: $primary01 !important;
+        color: $brand-primary !important;
+    }
+}
+
+
+.bg-success-transparent {
+    background-color: $success01 !important;
+    color: $brand-success !important;
+    &:hover {
+        background-color: $success01 !important;
+        color: $brand-success !important;
+    }
+}
+
+.bg-info-transparent {
+    background-color: $info01 !important;
+    color: $brand-info !important;
+    &:hover {
+        background-color: $info01 !important;
+        color: $brand-info !important;
+    }
+}
+
+.bg-warning-transparent {
+    background-color: $warning01 !important;
+    color: $brand-warning !important;
+    &:hover {
+        background-color: $warning01 !important;
+        color: $brand-warning !important;
+    }
+}
+
+.bg-danger-transparent {
+    background-color: $danger01 !important;
+    color: $brand-danger !important;
+    &:hover {
+        background-color: $danger01 !important;
+        color: $brand-danger !important;
+    }
+}
+
+  
+  
+  
+  
+  
+
 
 // Social Buttons
 

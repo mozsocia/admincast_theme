@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600&display=swap");
 :root {
   --body-bg: rgb(240, 241, 247);
   --primary: rgb(132, 90, 223);
@@ -27,7 +28,7 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
   background-color: #f0f1f7;
   color: #333335; }
 
@@ -107,7 +108,7 @@ pre {
 
 label {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.45rem; }
 
 .table thead th {
@@ -2767,7 +2768,7 @@ a.text-danger:hover, a.text-danger:focus {
   margin: 0;
   border: 0;
   border-radius: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); }
   .header .page-brand {
     width: 220px;
     display: inline-flex;

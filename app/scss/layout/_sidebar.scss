@@ -43,7 +43,7 @@
 }
 .side-menu {
 	.heading {
-	    padding: 12px 15px;
+	    padding: 12px 25px;
 	    display: block;
 	    font-size: 13px;
 	}
@@ -93,7 +93,10 @@
 body:not(.fixed-layout).sidebar-mini {
     .content-wrapper {margin-left:60px}
     .page-sidebar {width: 60px;}
-    .page-brand {width:60px}
+    .page-brand {
+		width:60px;
+		padding: 0 15px;
+	}
 	.brand {display:none}
     .brand-mini {display:block !important}
 	.side-menu {

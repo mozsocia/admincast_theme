@@ -2855,7 +2855,7 @@ a.text-danger:hover, a.text-danger:focus {
     width: 220px;
     display: inline-flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 50px;
     font-weight: 500;
     font-size: 20px;
     transition: all .2s ease-in-out;
@@ -2964,7 +2964,7 @@ a.text-danger:hover, a.text-danger:focus {
 
 .header .page-brand {
   color: #fff;
-  background-color: #6c29fd !important; }
+  background-color: #111c43 !important; }
 
 .header .navbar-toolbar > li > a, .header .navbar-toolbar > li > a:hover, .header .navbar-toolbar > li > a:focus {
   color: #fff; }
@@ -3025,7 +3025,7 @@ a.text-danger:hover, a.text-danger:focus {
     padding: 11px 12px; }
 
 .side-menu .heading {
-  padding: 12px 15px;
+  padding: 12px 25px;
   display: block;
   font-size: 13px; }
 
@@ -3070,7 +3070,8 @@ body:not(.fixed-layout).sidebar-mini .page-sidebar {
   width: 60px; }
 
 body:not(.fixed-layout).sidebar-mini .page-brand {
-  width: 60px; }
+  width: 60px;
+  padding: 0 15px; }
 
 body:not(.fixed-layout).sidebar-mini .brand {
   display: none; }

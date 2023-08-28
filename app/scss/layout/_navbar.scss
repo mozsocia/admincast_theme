@@ -11,7 +11,7 @@
 	    width: 220px;
 	    display: inline-flex;
 	    align-items: center;
-		padding: 0 15px;
+		padding: 0 50px;
 		font-weight: 500;
 		font-size: 20px;
 		transition: all .2s ease-in-out;
@@ -151,7 +151,7 @@
 	background-color: $brand-primary; }
 	.header .page-brand {
 	  color: #fff;
-	  background-color: darken($brand-primary, 4%) !important; }
+	  background-color: $sidebar-bg !important }
 	.header .navbar-toolbar > li > a, .header .navbar-toolbar > li > a:hover, .header .navbar-toolbar > li > a:focus {
 	  color: #fff; }
 	.header .navbar-toolbar .navbar-search .form-control {

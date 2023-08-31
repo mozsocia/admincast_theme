@@ -4,8 +4,11 @@
     margin-bottom: 25px;
     border-radius: $default-border-radius;
     background-color: #fff;
-    box-shadow: 1px 1px 1px rgba(0,0,0,.1);
-    border: 1px solid #cbcbcb;
+    // box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    box-shadow: 0 2px 6px 0 rgba(67,89,113,.12);
+    // border: 1px solid #cbcbcb;
+    border: 1px solid $brand-primary;
+    border-width: 3px 0 1px 0;
     .ibox-head {
         padding: 0 20px;
         border-bottom: 1px solid #eee;
@@ -64,6 +67,18 @@
     }
 }
 
+.ibox-sp-primary {
+    border-color: $brand-primary;
+}
+.ibox-sp-success {
+    border-color: $brand-success;
+}
+.ibox-sp-info {
+    border-color: $brand-info;
+}
+.ibox-sp-none {
+    border-color: #fff;
+}
 //== Contextual Panels
 
 .ibox-primary { @include panel-variant($brand-primary, #fff, #fff) }

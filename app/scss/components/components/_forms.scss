@@ -1,6 +1,7 @@
 .form-control {
-    border-radius: $default-border-radius - 2px;
+    border-radius: $default-border-radius - 3px;
     box-shadow: none !important;
+    border: 1px solid rgba(0,0,0,.3);
     &:focus {
         border-color: $brand-info;
     }

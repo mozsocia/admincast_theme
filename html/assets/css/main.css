@@ -109,7 +109,8 @@ pre {
 label {
   display: inline-block;
   font-weight: 500;
-  margin-bottom: 0.45rem; }
+  margin-bottom: 0.15rem;
+  color: #0f0f0f; }
 
 .table thead th {
   background-color: #f3f6f9;
@@ -121,7 +122,7 @@ label {
   border-top: 1px solid #d9dcdf !important; }
 
 .btn {
-  padding: 0.60rem 0.90rem;
+  padding: 0.6rem 0.9rem 0.52rem 0.9rem;
   font-size: 1.1rem;
   border-radius: 0.4rem;
   outline: 0 !important;
@@ -1306,8 +1307,9 @@ btn .caret {
   margin-bottom: 25px;
   border-radius: 6px;
   background-color: #fff;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  border: 1px solid #cbcbcb; }
+  box-shadow: 0 2px 6px 0 rgba(67, 89, 113, 0.12);
+  border: 1px solid #7a3dfd;
+  border-width: 3px 0 1px 0; }
   .ibox .ibox-head {
     padding: 0 20px;
     border-bottom: 1px solid #eee;
@@ -1356,6 +1358,18 @@ btn .caret {
       content: "\f066"; }
   .ibox.collapsed-mode .ibox-collapse > i::before {
     content: "\f067"; }
+
+.ibox-sp-primary {
+  border-color: #7a3dfd; }
+
+.ibox-sp-success {
+  border-color: #26bf94; }
+
+.ibox-sp-info {
+  border-color: #49b6f5; }
+
+.ibox-sp-none {
+  border-color: #fff; }
 
 .ibox-primary .ibox-head {
   color: #fff;
@@ -1788,8 +1802,9 @@ body.fullscreen-mode {
   background-color: inherit; }
 
 .form-control {
-  border-radius: 4px;
-  box-shadow: none !important; }
+  border-radius: 3px;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
   .form-control:focus {
     border-color: #49b6f5; }
 
@@ -3358,7 +3373,7 @@ body.has-backdrop .backdrop {
       color: #fff; }
 
 .page-sidebar {
-  background-color: #111c43; }
+  background-color: #1b2850; }
   .page-sidebar .admin-block .admin-info {
     color: #fff; }
     .page-sidebar .admin-block .admin-info small {
@@ -3375,7 +3390,7 @@ body.has-backdrop .backdrop {
     box-shadow: 0 3px 3px rgba(56, 65, 74, 0.1); }
 
 .side-menu > li.active {
-  background-color: #162557; }
+  background-color: #213263; }
   .side-menu > li.active > a, .side-menu > li.active > a:hover, .side-menu > li.active > a:focus {
     color: #fff;
     background-color: #7334fc;
@@ -3389,11 +3404,11 @@ body.has-backdrop .backdrop {
   color: #fff; }
 
 .sidebar-mini .side-menu > li:hover .nav-2-level {
-  background-color: #111c43; }
+  background-color: #1b2850; }
 
 .header .page-brand {
   color: #fff;
-  background-color: #1b2d6c; }
+  background-color: #283b76; }
 
 .legendLabel {
   padding-left: 5px; }

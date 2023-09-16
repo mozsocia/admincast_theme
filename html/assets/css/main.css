@@ -124,7 +124,7 @@ label {
 .btn {
   padding: 0.6rem 0.9rem 0.52rem 0.9rem;
   font-size: 1.1rem;
-  border-radius: 0.4rem;
+  border-radius: 0.25rem;
   outline: 0 !important;
   transition: all ease-in-out .15s;
   position: relative;
@@ -1802,7 +1802,7 @@ body.fullscreen-mode {
   background-color: inherit; }
 
 .form-control {
-  border-radius: 3px;
+  border-radius: 0.25rem;
   box-shadow: none !important;
   border: 1px solid rgba(0, 0, 0, 0.3); }
   .form-control:focus {

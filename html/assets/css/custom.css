@@ -1,0 +1,9 @@
+/* Override SimpleBar's default styles */
+.simplebar-scrollbar.simplebar-visible::before {
+  background-color: #94909e83;
+}
+
+/* Style to make the container fill the window */
+.my-scrollable-container {
+  height: 100vh;
+}

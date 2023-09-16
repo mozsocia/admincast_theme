@@ -7,3 +7,6 @@
 .my-scrollable-container {
   height: 100vh;
 }
+.header .sidebar-toggler {
+    font-size: 28px;
+}

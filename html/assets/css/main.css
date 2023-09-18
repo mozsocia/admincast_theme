@@ -3060,7 +3060,7 @@ a.text-danger:hover, a.text-danger:focus {
     line-height: 20px;
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 10px;
     margin-top: -9px;
     opacity: 1; }
   .side-menu li.active > a > .arrow {

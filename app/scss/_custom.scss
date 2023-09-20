@@ -1,0 +1,19 @@
+/* Override SimpleBar's default styles */
+.simplebar-scrollbar.simplebar-visible::before {
+  background-color: #424242b4;
+  border: 1px solid #ffffff33;
+}
+
+/* Style to make the container fill the window */
+.my-scrollable-container {
+  height: 100vh;
+}
+.header .sidebar-toggler {
+  font-size: 28px;
+}
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--single,
+.select2-container--default.select2-container--focus
+  .select2-selection--multiple {
+  border-radius: 0.25rem;
+}

@@ -26,7 +26,7 @@ $black:           #0f0f0f;
 
 //$blue-dark:       #3498DB;
 $blue:            rgb(122, 61, 253);
-$blue-light:      rgb(73, 182, 245);
+$blue-light:      rgb(53,119,241);
 $green:           rgb(38, 191, 148);
 $red:             rgb(230, 83, 60);
 $orange:          rgb(255, 165, 5);
@@ -47,7 +47,7 @@ $brand-warning:             $orange;
 $brand-danger:              $red;
 $brand-default:             $silver;
 
-$primary01: rgba($brand-primary, 0.1);
+$primary01: rgba($brand-primary, 0.15);
 $primary02: rgba($brand-primary, 0.2);
 $primary03: rgba($brand-primary, 0.3);
 $primary04: rgba($brand-primary, 0.4);
@@ -58,7 +58,7 @@ $primary08: rgba($brand-primary, 0.8);
 $primary09: rgba($brand-primary, 0.9);
 $primary005: rgba($brand-primary, 0.05);
 
-$success01: rgba($brand-success, 0.1);
+$success01: rgba($brand-success, 0.15);
 $success02: rgba($brand-success, 0.2);
 $success03: rgba($brand-success, 0.3);
 $success04: rgba($brand-success, 0.4);
@@ -69,7 +69,7 @@ $success08: rgba($brand-success, 0.8);
 $success09: rgba($brand-success, 0.9);
 $success005: rgba($brand-success, 0.05);
 
-$info01: rgba($brand-info, 0.1);
+$info01: rgba($brand-info, 0.15);
 $info02: rgba($brand-info, 0.2);
 $info03: rgba($brand-info, 0.3);
 $info04: rgba($brand-info, 0.4);
@@ -80,7 +80,7 @@ $info08: rgba($brand-info, 0.8);
 $info09: rgba($brand-info, 0.9);
 $info005: rgba($brand-info, 0.05);
 
-$warning01: rgba($brand-warning, 0.1);
+$warning01: rgba($brand-warning, 0.15);
 $warning02: rgba($brand-warning, 0.2);
 $warning03: rgba($brand-warning, 0.3);
 $warning04: rgba($brand-warning, 0.4);
@@ -91,7 +91,7 @@ $warning08: rgba($brand-warning, 0.8);
 $warning09: rgba($brand-warning, 0.9);
 $warning005: rgba($brand-warning, 0.05);
 
-$danger01: rgba($brand-danger, 0.1);
+$danger01: rgba($brand-danger, 0.15);
 $danger02: rgba($brand-danger, 0.2);
 $danger03: rgba($brand-danger, 0.3);
 $danger04: rgba($brand-danger, 0.4);
@@ -102,7 +102,7 @@ $danger08: rgba($brand-danger, 0.8);
 $danger09: rgba($brand-danger, 0.9);
 $danger005: rgba($brand-danger, 0.05);
 
-$default01: rgba($brand-default, 0.1);
+$default01: rgba($brand-default, 0.15);
 $default02: rgba($brand-default, 0.2);
 $default03: rgba($brand-default, 0.3);
 $default04: rgba($brand-default, 0.4);
@@ -157,27 +157,28 @@ $link-hover-color: darken($link-color, 15%);
 
 $btn-primary-color:              $white !default;
 $btn-primary-bg:                 $brand-primary !default;
-$btn-primary-border:             mix(black, $btn-primary-bg, 15%) !default;
+// $btn-primary-border:             mix(black, $btn-primary-bg, 15%) !default;
+$btn-primary-border:             transparent !default;
 
 $btn-info-color:                 $white !default;
 $btn-info-bg:                    $brand-info !default;
-$btn-info-border:                mix(black, $btn-info-bg, 15%) !default;
+$btn-info-border:                transparent !default;
 
 $btn-success-color:              $white !default;
 $btn-success-bg:                 $brand-success !default;
-$btn-success-border:             mix(black, $btn-success-bg, 15%) !default;
+$btn-success-border:             transparent !default;
 
 $btn-warning-color:              $white !default;
 $btn-warning-bg:                 $brand-warning !default;
-$btn-warning-border:             mix(black, $btn-warning-bg, 15%) !default;
+$btn-warning-border:             transparent !default;
 
 $btn-danger-color:               $white !default;
 $btn-danger-bg:                  $brand-danger !default;
-$btn-danger-border:              mix(black, $btn-danger-bg, 15%) !default;
+$btn-danger-border:              transparent !default;
 
 $btn-default-color:              #485b6f; //#5d6064 !default;
 $btn-default-bg:                 mix(white, $silver, 58%) !default; //#E6E6E6
-$btn-default-border:             mix(black, $btn-default-bg, 15%) !default;
+$btn-default-border:             transparent !default;
 
 //== Alerts
 

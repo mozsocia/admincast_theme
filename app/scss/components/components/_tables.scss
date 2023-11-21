@@ -1,8 +1,12 @@
 
 .table {
+	&>thead>tr>th {
+		padding: 0.5rem;
+    }
     &>tbody>tr>th, &>tbody>tr>td,
     &>tfoot>tr>th, &>tfoot>tr>td {
         border-top: 1px solid $table-border-color;
+		padding: 0.5rem;
     }
 	thead th {
 	    border-bottom: 1px solid #ddd !important;

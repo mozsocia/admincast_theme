@@ -114,9 +114,15 @@ $default09: rgba($brand-default, 0.9);
 $default005: rgba($brand-default, 0.05);
 
 
-$default-border-radius: 6px;
-$button-border-radius: 0.25rem;
-$sidebar-li-border-radius: 0.5rem;
+// $default-border-radius: 3px;
+// $button-border-radius: 0.15rem;
+// $sidebar-li-border-radius: 0.25rem;
+// $form-border-radius: 0.15rem;
+
+$default-border-radius: 0px;
+$button-border-radius: 0.0rem;
+$sidebar-li-border-radius: 0.15rem;
+$form-border-radius: 0.0rem;
 
 $sidebar-bg: #151529 ;
 // COLORS PALLETES

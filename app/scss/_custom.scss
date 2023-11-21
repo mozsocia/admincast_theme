@@ -9,11 +9,11 @@
   height: 100vh;
 }
 .header .sidebar-toggler {
-  font-size: 28px;
+  font-size: 1.6rem;
 }
 .select2-container--default .select2-selection--multiple,
 .select2-container--default .select2-selection--single,
 .select2-container--default.select2-container--focus
   .select2-selection--multiple {
-  border-radius: 0.25rem;
+  border-radius: $form-border-radius;
 }

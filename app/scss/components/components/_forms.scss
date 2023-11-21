@@ -1,7 +1,7 @@
 .form-control {
-    border-radius: 0.25rem;
+    border-radius: $form-border-radius;
     box-shadow: none !important;
-    border: 1px solid rgba(0,0,0,.3);
+    border: 1px solid rgba(0, 0, 0, 0.225);
     &:focus {
         border-color: $brand-info;
     }
@@ -76,7 +76,7 @@
         width: 20px;
         left: 0;
         border: 1px solid #ccc;
-        border-radius: 4px;
+        border-radius: $form-border-radius;
         &::after {
             content: '';
             position: absolute;

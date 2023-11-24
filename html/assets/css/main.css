@@ -108,8 +108,8 @@ pre {
 
 label {
   display: inline-block;
-  font-weight: 500;
-  margin-bottom: 0.15rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
   color: #0f0f0f; }
 
 .table thead th {
@@ -2929,7 +2929,7 @@ a.text-danger:hover, a.text-danger:focus {
     .header .navbar-search .form-control {
       border: 0;
       padding: .65rem 1.25rem .65rem 40px;
-      border-radius: 0.25rem !important;
+      border-radius: 0.2rem !important;
       background-color: #ccc6f14a !important;
       border-color: #f4f5f9;
       font-size: 13px; }
@@ -2977,7 +2977,7 @@ a.text-danger:hover, a.text-danger:focus {
     margin-left: 0 !important; } }
 
 .header {
-  background-color: #7a3dfd; }
+  background-color: #7333fd; }
 
 .header .page-brand {
   color: #fff;
@@ -3023,13 +3023,13 @@ a.text-danger:hover, a.text-danger:focus {
     .page-sidebar ul li {
       position: relative;
       display: block;
-      padding: 0 10px;
+      padding: 0 8px;
       margin-top: 1px; }
       .page-sidebar ul li a {
         position: relative;
         display: block;
         padding: 11px 20px;
-        border-radius: 0.15rem; }
+        border-radius: 0.2rem; }
   .page-sidebar .admin-block {
     padding: 15px 10px; }
     .page-sidebar .admin-block .admin-avatar {
@@ -3073,10 +3073,10 @@ a.text-danger:hover, a.text-danger:focus {
   overflow: hidden; }
 
 .side-menu .nav-2-level > li > a {
-  padding: 7px 10px 7px 45px; }
+  padding: 7px 10px 7px 30px; }
 
 .side-menu .nav-3-level > li > a {
-  padding: 7px 10px 7px 55px; }
+  padding: 7px 10px 7px 40px; }
 
 /*************************
   MINI Sidebar
@@ -3392,11 +3392,14 @@ body.has-backdrop .backdrop {
     background-color: rgba(255, 255, 255, 0.12); }
 
 .side-menu > li.active > a, .side-menu > li.active > a:hover, .side-menu > li.active > a:focus {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.12); }
+  color: #fff; }
 
 .side-menu li a.active {
-  color: #fff; }
+  color: #fff;
+  font-weight: 500; }
+
+.side-menu > li a.active {
+  background-color: #7334fc; }
 
 .side-menu ul li a::before {
   content: "-";
@@ -3551,7 +3554,7 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, tab
   height: 100vh; }
 
 .header .sidebar-toggler {
-  font-size: 1.6rem; }
+  font-size: 2.2rem; }
 
 .select2-container--default .select2-selection--multiple,
 .select2-container--default .select2-selection--single,

@@ -9,11 +9,18 @@
   height: 100vh;
 }
 .header .sidebar-toggler {
-  font-size: 1.6rem;
+  font-size: 2.2rem;
 }
 .select2-container--default .select2-selection--multiple,
 .select2-container--default .select2-selection--single,
 .select2-container--default.select2-container--focus
   .select2-selection--multiple {
   border-radius: $form-border-radius;
+}
+
+
+
+
+.dataTables_wrapper .dataTables_filter .form-control-sm {
+  
 }

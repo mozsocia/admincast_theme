@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 :root {
   --body-bg: rgb(240, 241, 247);
   --primary: rgb(132, 90, 223);
@@ -28,7 +28,7 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f0f1f7;
   color: #333335; }
 
@@ -3011,7 +3011,6 @@ a.text-danger:hover, a.text-danger:focus {
   width: 220px;
   min-height: 100%;
   position: absolute;
-  font-family: Inter,'sans-serif';
   top: 0;
   margin-top: 50px;
   transition: all .2s ease-in-out;
